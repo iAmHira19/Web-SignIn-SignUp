@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.left-section,
+.right-section {
+    flex: 1;
+}
+
+.logo-container img {
+    width: 250px;
+    height: auto;
+}
+
+.slogan {
+    color: #fff;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.separator {
+    border: 1px solid #fff;
+    margin: 20px 0;
+}
+
+.small-pics img {
+    width: 90px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.signup-box {
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #000;
+    text-align: left;
+    margin: 20px;
+    width: 75%;
+    max-height: 500px; /* Adjust the maximum height as needed */
+    overflow-y: auto;/*  Enable vertical scrolling */
+}
+
+.signup-box h2,
+.signup-box p {
+    color: #070000;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: #000;
+    margin-top: 10px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    background-color: #424473;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #010915;
+}
+
+a {
+    color: #4285f4;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/* Styling for WebKit browsers (Chrome, Safari) */
+.signup-box::-webkit-scrollbar {
+    width: 12px;
+    
+}
+
+.signup-box::-webkit-scrollbar-thumb {
+    background-color: #2a3b58; /* Change color to your preferred color */
+    border-radius: 6px;
+}
+
+.signup-box::-webkit-scrollbar-track {
+    background-color: #f2f2f2; /* Change color to your preferred color */
+    border-radius: 10px;
+}
+

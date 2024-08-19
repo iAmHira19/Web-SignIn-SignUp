@@ -1,0 +1,58 @@
+<!-- signin.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Event Matrix - Sign In</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <!-- Logo and Signin Box -->
+            <div class="logo-container">
+                <img src="logo.png" alt="Event Matrix Logo">
+            </div>
+            <div class="signin-box">
+                <h2>Sign In to Event Matrix</h2>
+                <form action="signin.php" method="post">
+                    <label for="email">Email*</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="password">Password*</label>
+                    <div class="password-input">
+                        <input type="password" id="password" name="password" required>
+                        <span class="eye-icon" id="togglePassword">👁️</span>
+                    </div>
+
+                    <button type="submit">Sign In</button>
+
+                    <!-- Agreement text -->
+                    <p>By signing in, you agree to our <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>.</p>
+
+                    <!-- Create an account link -->
+                    <p>Don't have an account? <a href="signup.html">Create an account</a></p>
+
+                    <!-- Forgot password link -->
+                    <p>Forgot your password? <a href="#">Reset password</a></p>
+                </form>
+            </div>
+        </div>
+        <div class="right-section">
+            <!-- Medium Rectangle Pic and Description -->
+            <div class="medium-rectangle">
+                <img src="medium.jpg" alt="Medium Rectangle Pic">
+                <div class="description">
+                    <p><strong>Event Matrix - Your Ultimate Event Management Platform</strong></p>
+                    <p>Learn how to leverage Event Matrix for seamless event management and elevate the overall experience for both organizers and attendees.</p>
+                    <a href="#">Read more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

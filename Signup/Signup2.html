@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles2.css">
+    <title>Event Matrix - Signup</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <!-- Logo and Slogan -->
+            <div class="logo-container">
+                <img src="logo.png" alt="Event Matrix Logo">
+            </div>
+            <div class="slogan">
+                <p>Thrilled with Event Matrix! Seamless design, lightning-fast processing, and exceptional customer service make it stand out. From signup to finish, the journey has been top-notch. Exceptional platform</p>
+            </div>
+            <hr class="separator">
+            <!-- Small pics -->
+            <div class="small-pics">
+                <img src="pic1.png" alt="Pic 1">
+                <img src="pic2.png" alt="Pic 2">
+                <img src="pic3.png" alt="Pic 3">
+                <img src="pic4.png" alt="Pic 4">
+            </div>
+        </div>
+        <div class="right-section">
+            <!-- Signup Box -->
+            <div class="signup-box">
+                <h2>Almost Done...</h2>
+                <form action="signup.php" method="post">
+                    <label for="firstName">First Name*</label>
+                    <input type="text" id="firstName" name="firstName" required>
+
+                    <label for="lastName">Last Name*</label>
+                    <input type="text" id="lastName" name="lastName" required>
+
+                    <label for="companyName">Organization/Company Name</label>
+                    <input type="text" id="companyName" name="companyName">
+
+                    <label for="mobileNumber">Mobile Number*</label>
+                    <input type="tel" id="mobileNumber" name="mobileNumber" required>
+
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value="us">United States</option>
+                        <!-- Add other country options as needed -->
+                    </select>
+
+                    <label for="enterNumber">Enter Number</label>
+                    <input type="text" id="enterNumber" name="enterNumber">
+
+                    <label for="annualAttendees">Annual Event Attendees</label>
+                    <select id="annualAttendees" name="annualAttendees">
+                        <option value="1">1-100</option>
+                        <option value="2">101-500</option>
+                        <!-- Add other options as needed -->
+                    </select>
+
+                    <label for="subdomain">Subdomain*</label>
+                    <input type="text" id="subdomain" name="subdomain" required>
+
+                    <label for="domain">Domain</label>
+                    <input type="text" id="domain" name="domain">
+
+                    <label for="website">Website</label>
+                    <input type="url" id="website" name="website">
+
+                    <div class="button-container">
+                        <button type="submit">Complete Sign Up</button>
+                    </div>
+                </form>
+
+                <p>By signing up, you agree to our <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts2.js"></script>
+</body>
+</html>

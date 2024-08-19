@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 80%; /* Adjust as needed */
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px; /* Added margin to create space between left and right sections */
+}
+
+.left-section,
+.right-section {
+    flex: 1;
+}
+
+.logo-container img {
+    width: 250px; /* Increased logo size */
+    height: auto;
+}
+
+.slogan {
+    color: #fff; /* Set slogan text color to white */
+    font-size: 18px; /* Adjust font size */
+    margin-top: 20px; /* Increased spacing at the header */
+}
+
+.separator {
+    border: 1px solid #fff; /* White line separator */
+    margin: 20px 0;
+}
+
+.small-pics img {
+    width: 90px; /* Increased size of small pics */
+    height: auto;
+    margin-right: 15px; /* Adjust spacing */
+}
+
+.signup-box {
+    background: #fff; /* White background */
+    padding: 15px; /* Reduced padding for space inside the box */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adjust shadow color */
+    color: #000; /* Set text color inside the box to black */
+    text-align: left; /* Align text to the left */
+    margin: 20px; /* Added margin for space around the box */
+    width: 75%; /* Adjusted width of the box */
+    height: 89vh; /* Adjusted height of the box */
+}
+
+.signup-box h2,
+.signup-box p {
+    color: #070000; /* Adjust text color inside the box */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: #000; /* Adjust label color */
+    margin-top: 10px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #424473;
+    color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #000000;
+}
+
+a {
+    color: #4285f4;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.password-input {
+    position: relative;
+}
+
+#password {
+    padding-right: 203px; /* Adjust padding to make space for the eye icon */
+}
+
+.eye-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
